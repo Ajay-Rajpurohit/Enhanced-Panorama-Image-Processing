@@ -11,20 +11,21 @@ These challenges are crucial for enhancing applications in virtual reality, arch
 We rigorously generate custom images to test and evaluate the effectiveness of our stitching algorithms.
 
 **Algorithm:**
-● Collect multiple overlapping images of the same scene.
 
-● Identify distinctive features in each image using a feature detection algorithm
+1. Collect multiple overlapping images of the same scene.
+
+2. Identify distinctive features in each image using a feature detection algorithm
 (e.g., SIFT, SURF, ORB).
 
-● Compare features between pairs of images to find matches. This often involves
+3. Compare features between pairs of images to find matches. This often involves
 calculating distances between feature descriptors and may include a matching
 strategy to filter out poor matches (e.g., Lowe's ratio test).
 
-● Estimate the homography (projective transformation) between pairs of images
+4. Estimate the homography (projective transformation) between pairs of images
 based on matched features. This step may involve a robust estimation method like
 RANSAC to handle outliers effectively.
 
-● Warp images into a common coordinate system using the estimated homography.
+5. Warp images into a common coordinate system using the estimated homography.
 
-● Merge the aligned images into a single panoramic image. Techniques like
+6. Merge the aligned images into a single panoramic image. Techniques like
 multi-band blending or feathering is used to smooth the transitions between images and eliminate visible seams.
