@@ -2,12 +2,15 @@
 Performed Image-Stitching tasks using ORB and RANSAC techniques to create seamless panoramas from smartphone photos, addressing challenges like motion-induced inconsistencies and varying lighting conditions
 
 **Problem Statement:**
+
 Creating high-quality panoramic images remains challenging due to issues like misalignments and exposure differences. This project aims to use a different image processing algorithm that significantly improves panorama seamlessness and overall visual quality.
 
 **Impact:**
+
 These challenges are crucial for enhancing applications in virtual reality, architectural visualization, and digital photography.
 
 **Dataset:**
+
 We rigorously generate custom images to test and evaluate the effectiveness of our stitching algorithms.
 
 **Algorithm:**
